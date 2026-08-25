@@ -1,133 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy – WaveLoka</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  :root { --teal: #00C6A7; --teal-dark: #00A88E; --blue: #0A84FF; --navy: #0D1B2A; --navy-light: #1A2B3C; --alice: #F0F8FF; --alice-dark: #D8EAF8; --text-light: #E0F0FF; --text-muted: #7AA5C0; }
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--navy); color: var(--text-light); font-family: 'DM Sans', sans-serif; font-weight: 300; line-height: 1.75; }
-  nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 48px; border-bottom: 1px solid var(--navy-light); }
-  .nav-logo { font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: var(--text-light); text-decoration: none; }
-  .nav-logo span { color: var(--teal); }
-  .lang-switch { display: flex; gap: 4px; }
-  .lang-switch a { font-size: 0.8rem; font-weight: 500; padding: 4px 10px; border-radius: 20px; text-decoration: none; color: var(--text-muted); transition: all 0.2s; }
-  .lang-switch a.active, .lang-switch a:hover { background: var(--teal); color: var(--navy); }
-  .container { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
-  .back-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-muted); text-decoration: none; margin-bottom: 48px; transition: color 0.2s; }
-  .back-link:hover { color: var(--teal); }
-  .doc-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal); margin-bottom: 12px; }
-  h1 { font-family: 'DM Serif Display', serif; font-size: 2.8rem; line-height: 1.1; letter-spacing: -0.02em; color: var(--alice); margin-bottom: 8px; }
-  .doc-date { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 48px; }
-  h2 { font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: var(--alice); margin: 40px 0 12px; }
-  p { color: var(--text-muted); margin-bottom: 16px; }
-  ul { color: var(--text-muted); padding-left: 20px; margin-bottom: 16px; }
-  ul li { margin-bottom: 6px; }
-  a { color: var(--teal); }
-  .highlight-box { background: var(--navy-light); border-left: 3px solid var(--teal); border-radius: 0 12px 12px 0; padding: 20px 24px; margin: 24px 0; }
-  .highlight-box p { margin: 0; }
-  .footer { background: var(--navy); padding: 24px 48px; text-align: center; font-size: 0.82rem; color: var(--text-muted); border-top: 1px solid var(--navy-light); }
-  @media (max-width: 640px) { nav { padding: 16px 20px; } .container { padding: 40px 20px 64px; } h1 { font-size: 2rem; } }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – WaveLoka</title>
+  <link rel="stylesheet" href="../legal.css">
 </head>
 <body>
+  <nav>
+    <a class="nav-logo" href="../index.html">Wave<span>Loka</span></a>
+    <div class="lang-switch" aria-label="Language">
+      <a href="index.html" class="active" aria-current="page">EN</a>
+      <a href="de/index.html" lang="de">DE</a>
+    </div>
+  </nav>
 
-<nav>
-  <a class="nav-logo" href="../index.html">Wave<span>Loka</span></a>
-  <div class="lang-switch">
-    <a href="index.html" class="active">EN</a>
-    <a href="de/index.html">DE</a>
-  </div>
-</nav>
+  <main class="container">
+    <a class="back-link" href="../index.html">← Back to WaveLoka</a>
+    <p class="doc-label">Legal</p>
+    <h1>WaveLoka Privacy Policy</h1>
+    <p class="doc-date">Last updated: 25 August 2026</p>
 
-<div class="container">
-  <a class="back-link" href="../index.html">&#8592; Back to WaveLoka</a>
-  <p class="doc-label">Legal</p>
-  <h1>Privacy Policy</h1>
-  <p class="doc-date">Last updated: July 2026</p>
+    <p>This Privacy Policy applies to the WaveLoka Android app, including Android Auto, and to the <code>waveloka.app</code> website. It describes the active release state.</p>
 
-  <h2>1. Who We Are</h2>
-  <p>WaveLoka is a radio streaming directory app developed and operated by:<br>
-  Igor Maderic &#8211; Softwareentwicklung<br>
-  Bel&#223;stra&#223;e 48, 12249 Berlin, Germany<br>
-  <a href="mailto:contact@waveloka.app">contact@waveloka.app</a></p>
+    <h2>1. Controller</h2>
+    <p>
+      Igor Maderic – Softwareentwicklung<br>
+      Belßstraße 48<br>
+      12249 Berlin<br>
+      Germany
+    </p>
+    <p>Email: <a href="mailto:contact@waveloka.app">contact@waveloka.app</a></p>
 
-  <h2>2. What Data We Collect</h2>
-  <p>WaveLoka is designed to collect as little data as possible. Here is what the app processes:</p>
-  <ul>
-    <li><strong>Location data</strong> &#8212; Your location is used to show radio stations near you; depending on availability, this may include approximate or precise location. The parking feature (Find My Car) additionally uses precise location &#8212; see Section 3. Processing happens on your device; location data is not stored on our servers and is not shared with third parties.</li>
-    <li><strong>Favorites and listening history</strong> &#8212; Stored locally on your device only. We do not have access to this data.</li>
-    <li><strong>Advertising identifiers</strong> &#8212; Used by Google AdMob to serve ads. See Section 4.</li>
-  </ul>
+    <h2>2. Principles</h2>
+    <p>WaveLoka does not require a user account. The operator does not maintain its own server for user profiles, listening histories, or location histories. Much of the app data remains solely in the device's private storage. Website delivery, catalog retrieval, location features, radio playback, station artwork, privacy-choice management, advertising, and email communication nevertheless contact the providers and recipients described below.</p>
+    <p>Where processing is necessary to provide an app or website function you request, the legal basis is Article 6(1)(b) GDPR. For operational security, abuse prevention, and reliable delivery, we rely where applicable on Article 6(1)(f) GDPR; our legitimate interest is the secure and functional operation of WaveLoka. Processing required by law is based on Article 6(1)(c) GDPR. Consent-dependent processing is based on Article 6(1)(a) GDPR and, for storing or accessing information on your device, section 25(1) TDDDG. Strictly necessary local storage may be used without consent under section 25(2) TDDDG.</p>
 
-  <h2>3. Parking feature (Find My Car)</h2>
-  <p>When you use the "Find My Car" feature, the app stores your vehicle's position (coordinates, time, accuracy). This happens automatically when the Android Auto connection is disconnected, or manually when you choose to. This data is stored exclusively on your device, is never transmitted to us or third parties, and can be deleted in the app at any time. The legal basis is Art. 6(1)(b) GDPR (provision of the feature).</p>
+    <h2>3. Website and static app catalog</h2>
+    <p>The website and the app's <code>https://waveloka.app/source/stations.json</code> file are delivered as static GitHub Pages content. For every request, at least the IP address, date and time, requested address, transferred data volume, status, and browser or app/device information are technically transmitted to the delivery infrastructure. The app also sends a WaveLoka user agent and, where available, an <code>If-None-Match</code> value to update the catalog efficiently. GitHub expressly documents that a visitor's IP address is logged and stored for security purposes when a GitHub Pages site is visited.</p>
+    <p>Recipients are GitHub B.V., the Netherlands, and/or GitHub, Inc., United States, including infrastructure used by GitHub. The processing supports delivery, stability, and security under Article 6(1)(b) and (f) GDPR. GitHub determines retention according to purpose and legal obligations. See the <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Pages documentation</a> and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+    <p>We do not use our own web analytics, advertising technology, or marketing cookies on the website. Fonts are provided by the operating system; no remote font provider is contacted. Technically necessary processing by GitHub remains unaffected.</p>
 
-  <h2>4. Data We Do Not Collect</h2>
-  <ul>
-    <li>No account registration, no email, no name required</li>
-    <li>No location data transmitted to our servers (see Sections 2 and 3)</li>
-    <li>No listening behavior sent to our servers</li>
-    <li>No tracking across apps or websites by WaveLoka itself</li>
-  </ul>
+    <h2>4. App data stored locally</h2>
+    <p>The app stores locally in particular:</p>
+    <ul>
+      <li>preferences such as language, region, topic and source filters, selected area, screen behavior, and onboarding status;</li>
+      <li>the last playback item and playback intent;</li>
+      <li>favorites, hidden stations, and up to ten recently played stations;</li>
+      <li>user-created stations, including name, stream and image addresses, optional website, tags, and optional region or coordinates;</li>
+      <li>the curated station catalog, stream addresses, metadata, and update markers;</li>
+      <li>the last saved parking place with coordinates, time, accuracy, and an “automatic” or “manual” source marker;</li>
+      <li>the local “ad-free today” timestamp and local counters retained for the currently disabled audio pre-roll logic; and</li>
+      <li>privacy and consent information managed locally by Google UMP.</li>
+    </ul>
+    <p>These data enable requested app functions and are processed under Article 6(1)(b) GDPR. They are not uploaded as a user profile to a WaveLoka server.</p>
+    <p>You can change favorites, delete user-created stations, and delete or replace the parking place in the app. Recent history is limited to the ten newest entries. All local app data can be removed using Android's “Clear storage/data” control or by uninstalling the app. Cached catalog data is replaced on update; station artwork is evicted under the image cache's storage limits and can be removed with the app cache.</p>
+    <p>Android cloud backup is disabled for WaveLoka. The backup rules also exclude app data from cloud backup and device-to-device transfer. Android notes that some manufacturers may treat device-to-device migration differently on Android 12 or later; WaveLoka applies the strongest available app-level exclusions but cannot absolutely guarantee manufacturer-specific behavior. See <a href="https://developer.android.com/identity/data/autobackup">Android Auto Backup</a>.</p>
 
-  <h2>5. Advertising (Google AdMob)</h2>
-  <p>WaveLoka uses Google AdMob to display banner ads and audio pre-roll ads. AdMob may collect and use:</p>
-  <ul>
-    <li>Advertising ID (Android Advertising ID / AAID)</li>
-    <li>Approximate location</li>
-    <li>Device information</li>
-  </ul>
-  <p>This data is processed by Google LLC under their own privacy policy:
-  <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
-  <p>In the EEA, AdMob only personalises ads with your consent, which is requested on first launch via a consent dialog (UMP SDK).</p>
+    <h2>5. Location, Nearby, and parking place</h2>
+    <p>Location access is optional. Without permission, a region can be selected manually and radio playback remains available. With approximate or precise Android location permission, WaveLoka uses the Google Play services Fused Location Provider to obtain a current or last available location. For Nearby, the position is converted into a country and state. Android's <code>Geocoder</code> is supplied by the device; its specific implementation may operate locally or use a network service run by the device or platform provider. In the latter case, coordinates and technical connection data may be sent to that provider. WaveLoka does not send GPS location to its own server and does not explicitly pass it to Google Mobile Ads.</p>
+    <p>“Find my car” requests a precise location where possible. Manual save stores one location locally. During an active Android Auto projection, the app updates a local position fix approximately every 30 seconds so that a recent parking place remains available after disconnect; a worse fix does not automatically replace a better one. The previous place is removed when a new projection starts. A stored place remains local until it is deleted, replaced, or app data is removed. If you choose “Navigate to car,” Android passes the coordinates to the map/navigation app you select; that provider's privacy policy governs its further processing.</p>
+    <p>The sole purpose is the requested regional or parking function, based on Article 6(1)(b) GDPR. Android permission can be withdrawn at any time in system settings. The <a href="https://developer.android.com/reference/android/location/Geocoder">Android Geocoder documentation</a> explains that the implementation is device-dependent; the <a href="https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient">Fused Location documentation</a> describes approximate and precise location handling.</p>
 
-  <div class="highlight-box">
-    <p><strong>Ad-Free feature:</strong> The Ad-Free feature removes only ads served by WaveLoka &#8212; the banner at the bottom of the screen and the audio pre-roll (played once per session and after every three station switches). It does not affect advertisements that radio stations insert directly into their own streams. WaveLoka has no control over those stream-injected ads.</p>
-  </div>
+    <h2>6. Radio streams, station pages, and artwork</h2>
+    <p>When you select a station, your device connects directly to the stream address operated by the station or its technical provider. Loading station artwork directly contacts the image server specified in the catalog or user data. Opening a station website loads it in the selected browser. Those recipients obtain technically necessary connection data such as IP address, time, requested URL, header/device information, and data volume. This will usually permit an approximate location to be inferred. Station artwork may be retained in memory and app caches.</p>
+    <p>WaveLoka does not determine the logging, content, advertising, or retention of these independent providers. Their terms and privacy notices also apply. The connection performs the playback or display you selected under Article 6(1)(b) GDPR. Providers retain information according to their own published criteria and legal duties.</p>
+    <p>HTTPS is preferred for curated streams where technically possible. Third-party streams and user-added streams or images may, however, remain available only over unencrypted HTTP. With HTTP, network operators or other intermediaries may see or alter the connection and transmitted content. Use only trusted stream and image addresses. Advertising embedded in a radio stream is supplied by the broadcaster and is not controlled by WaveLoka.</p>
 
-  <h2>6. Radio Streams &amp; Third-Party Data Collection</h2>
-  <p>WaveLoka does not host, provide, or relay any audio streams of its own. Every stream is published and operated by the respective radio broadcaster. When you play a station, WaveLoka connects your device directly to the audio stream server operated by that broadcaster. As part of this connection, the station's server receives your <strong>IP address</strong> and may collect other technical data such as connection time, data volume, and streaming client information — as part of normal server operation.</p>
-  <p>WaveLoka has no control over, and bears no responsibility for, any data collected by radio stations or their streaming infrastructure. Each station operates under its own privacy policy. If you have concerns about a specific station's data practices, please refer to that station's privacy policy directly.</p>
-  <div class="highlight-box">
-    <p>This data flow is inherent to how internet radio streaming works and cannot be prevented while using the app's core playback functionality.</p>
-  </div>
+    <h2>7. Google UMP, banner, and rewarded advertising</h2>
+    <p>WaveLoka uses Google User Messaging Platform (UMP) to manage legally required privacy choices and Google Mobile Ads (AdMob) for:</p>
+    <ul>
+      <li>a banner in the phone/tablet app; and</li>
+      <li>a voluntarily opened rewarded ad which, after completion, marks the app locally as ad-free for the rest of the day.</li>
+    </ul>
+    <p>These ads are not displayed on the Android Auto screen. Release audio pre-roll is disabled. Advertising inserted by a broadcaster into its own stream is unaffected.</p>
+    <p>At app launch, UMP requests current consent information and displays a privacy message where required. Until UMP reports <code>canRequestAds()</code>, WaveLoka does not initialize Google Mobile Ads and does not request banner or rewarded ads. If requests are not permitted, or if the update fails without a still-valid stored status, the core service remains usable without WaveLoka ads.</p>
+    <p>Depending on region, choices, and ad delivery, Google and the advertising technology providers identified in the UMP form may process in particular:</p>
+    <ul>
+      <li>IP address and approximate location inferred from it;</li>
+      <li>app, device, and account identifiers, in particular advertising ID, app set ID, and, where applicable, other device identifiers;</li>
+      <li>app and ad interactions such as app launches, views, taps, impressions, video views, and reward completion;</li>
+      <li>diagnostic and performance information such as app launch time, hang rate, and energy usage;</li>
+      <li>device, operating-system, language, network, and ad-request information; and</li>
+      <li>consent status, privacy choices, and technically necessary consent identifiers.</li>
+    </ul>
+    <p>Purposes include consent management, ad delivery, selection and personalization, reach and performance measurement, reporting, and fraud, security, and abuse prevention. Google lists advertising, analytics, and fraud prevention as default Mobile Ads SDK purposes. WaveLoka does not include its own Analytics or Firebase integration and does not pass GPS coordinates in ad requests.</p>
+    <p>Recipients include Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; Google LLC, United States; their processors; and the ad partners named in the current UMP form. Google and some partners may act as independent controllers for their purposes. The exact partner list, purposes, and controls appear in the UMP form and may change with the AdMob configuration.</p>
+    <p>Where consent is legally required, device access and personal-data processing for advertising are based on section 25(1) TDDDG and Article 6(1)(a) GDPR. Strictly necessary consent management is covered by section 25(2) TDDDG; the related processing is based on Article 6(1)(c) and (f) GDPR. For non-personalized or restricted ads you select, Google and partners may use additional legal bases disclosed in the UMP form, including legitimate interests. You can object there where that option is offered.</p>
+    <p>Where UMP requires a privacy entry point for your region or previous choice, you can change or withdraw consent at any time for the future through “Ad privacy choices” in the app. This route must remain available for processing that requires consent. Withdrawal does not affect the lawfulness of earlier processing. You can also reset or delete the Android advertising ID in Android privacy settings.</p>
+    <p>Google processes data globally. For transfers to the United States and other third countries, Google identifies in particular adequacy decisions including the EU-U.S. Data Privacy Framework and Standard Contractual Clauses where required. Google and its partners determine retention according to data type, purpose, settings, security, and legal requirements; we do not set a separate fixed period for them. Details:</p>
+    <ul>
+      <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads disclosed data categories</a></li>
+      <li><a href="https://developers.google.com/admob/android/privacy">Google UMP and consent flow</a></li>
+      <li><a href="https://www.google.com/about/company/user-consent-policy/">Google EU User Consent Policy</a></li>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+      <li><a href="https://policies.google.com/technologies/retention">Google retention criteria</a></li>
+      <li><a href="https://business.safety.google/adsdatatransfers/">Google international transfers for ads services</a></li>
+    </ul>
 
-  <h2>7. Legal Basis for Processing (GDPR)</h2>
-  <ul>
-    <li><strong>Location</strong> &#8212; Legitimate interest (showing relevant local content), Art. 6(1)(f) GDPR. You can disable location permission at any time in Android system settings.</li>
-    <li><strong>Advertising identifiers</strong> &#8212; Your consent, collected via the consent dialog on first launch, Art. 6(1)(a) GDPR. You may withdraw consent at any time in the app's Ad Preferences settings.</li>
-  </ul>
+    <h2>8. Email contact</h2>
+    <p>When you email <code>contact@waveloka.app</code> or <code>optout@waveloka.app</code>, we process your sender and recipient address, header and delivery information, time, subject, message, attachments, and communication data created while handling the request.</p>
+    <p>The actual mailboxes are stored by IONOS SE. Incoming messages are additionally forwarded to a Gmail mailbox, and replies are sent using the WaveLoka addresses. Messages and metadata are therefore processed by both IONOS and Google and copies may exist in both systems. Recipients/processors are IONOS SE and, for Gmail, Google Ireland Limited and where applicable Google LLC and their subprocessors. The <a href="https://www.ionos.de/terms-gtc/datenschutzerklaerung/">IONOS Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a> also apply.</p>
+    <p>The legal basis is Article 6(1)(b) GDPR for pre-contractual, contractual, or requested matters, and otherwise Article 6(1)(f) GDPR for handling and documenting legitimate enquiries. Legally required retention is based on Article 6(1)(c) GDPR. We keep communications while needed to handle the matter, meet legal evidence duties, or establish, exercise, or defend legal claims, then delete them through regular mailbox maintenance. Provider backups and recipient copies may be removed later under their deletion and retention processes.</p>
 
-  <h2>8. Your Rights Under GDPR</h2>
-  <p>You have the right to access, rectify, erase, and restrict processing of your personal data, as well as the right to object and data portability.</p>
-  <p>Since WaveLoka does not store personal data on its own servers, most of these rights are exercised through your Android device settings or Google's privacy tools at <a href="https://myaccount.google.com" target="_blank">myaccount.google.com</a>.</p>
-  <p>For any privacy requests: <a href="mailto:contact@waveloka.app">contact@waveloka.app</a></p>
+    <h2>9. Recipients and international transfers at a glance</h2>
+    <p>Apart from providers expressly identified above, only people and service providers receive data where needed for operation, communication, legal advice, or compliance with law. GitHub and Google may process data in the United States and other countries. For relevant transfers they identify, in particular, the EU-U.S. Data Privacy Framework and/or EU Standard Contractual Clauses. Independent stream, image, map, and navigation providers may be located anywhere; selecting such a service creates a direct connection to its location. Review the chosen provider's privacy notice.</p>
 
-  <h2>9. Data Retention</h2>
-  <p>WaveLoka stores no personal data on its own servers. All local data (favorites, history, preferences) remains on your device and is deleted when you uninstall the app.</p>
+    <h2>10. Your rights</h2>
+    <p>Subject to the GDPR, you have in particular rights of access (Article 15), rectification (Article 16), erasure (Article 17), restriction (Article 18), portability (Article 20), and complaint (Article 77). Where processing is based on Article 6(1)(e) or (f) GDPR, you may object under Article 21 for reasons arising from your particular situation. Consent may be withdrawn at any time for the future.</p>
+    <p>Send requests to <a href="mailto:contact@waveloka.app">contact@waveloka.app</a>. We technically cannot remotely inspect or erase data held solely on your device; use the app and Android controls described above. For data processed by an independently responsible third party, you may also contact that provider directly.</p>
+    <p>You may complain to a data protection supervisory authority, in particular:</p>
+    <p>
+      Berlin Commissioner for Data Protection and Freedom of Information<br>
+      Alt-Moabit 59–61<br>
+      10555 Berlin<br>
+      Germany<br>
+      Email: <a href="mailto:mailbox@datenschutz-berlin.de">mailbox@datenschutz-berlin.de</a><br>
+      <a href="https://www.datenschutz-berlin.de/buergerinnen-und-buerger/beschwerde/">Online complaint</a>
+    </p>
 
-  <h2>10. Children</h2>
-  <p>WaveLoka is not directed at children under 16. We do not knowingly collect data from children.</p>
+    <h2>11. Children</h2>
+    <p>WaveLoka is intended for a general audience and is not specifically designed for children. There is no age-verification process, and we do not knowingly invite children to submit personal data. Minors should use the app, especially ad-supported functions and email contact, only in accordance with applicable age rules and, where required, with a parent or guardian's consent or supervision. If you believe a child has sent us personal data, please contact us so that we can review the matter and take any required action.</p>
 
-  <h2>11. Changes to This Policy</h2>
-  <p>We may update this policy. The "Last updated" date at the top will reflect any changes. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+    <h2>12. Security</h2>
+    <p>We limit our own data holdings, separate local app data from public services, disable Android backup, and use encrypted connections for the WaveLoka catalog and Google advertising services. No transmission or storage system is risk-free. In particular, independent or user-added HTTP streams and HTTP images are not encrypted in transit. Do not put confidential information in stream addresses or station metadata.</p>
 
-  <h2>12. Contact</h2>
-  <p>Igor Maderic &#8211; Softwareentwicklung<br>
-  Bel&#223;stra&#223;e 48<br>
-  12249 Berlin<br>
-  Germany<br>
-  <a href="mailto:contact@waveloka.app">contact@waveloka.app</a></p>
-</div>
+    <h2>13. Changes to this policy</h2>
+    <p>We update this policy when functions, recipients, law, or processing change. The current date appears at the top. For material changes, we will provide an appropriate notice in the app or on the website and seek fresh consent where legally required. Continued use alone is not treated as consent to changed processing that requires consent.</p>
+    <p>The principal legal framework and disclosure duties are set out in the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679">GDPR</a> and <a href="https://www.gesetze-im-internet.de/ttdsg/__25.html">section 25 TDDDG</a>.</p>
+  </main>
 
-<div class="footer">
-  &#169; 2026 Igor Maderic &middot; WaveLoka &middot;
-  <a href="../impressum/index.html">Impressum</a>
-</div>
-
+  <footer class="footer">
+    © 2026 Igor Maderic · WaveLoka ·
+    <a href="../impressum/en/index.html">Legal Notice (Impressum)</a>
+  </footer>
 </body>
 </html>

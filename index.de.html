@@ -4,8 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>WaveLoka – Lokales Radio, wohin du auch fährst</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --teal: #00C6A7;
@@ -20,9 +18,9 @@
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
-  body { background: var(--navy); color: var(--text-light); font-family: 'DM Sans', sans-serif; font-weight: 300; line-height: 1.7; }
+  body { background: var(--navy); color: var(--text-light); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: 300; line-height: 1.7; }
   nav { position: fixed; top: 0; width: 100%; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 20px 48px; background: rgba(13,27,42,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--navy-light); }
-  .nav-logo { font-family: 'DM Serif Display', serif; font-size: 1.4rem; color: var(--text-light); text-decoration: none; }
+  .nav-logo { font-family: Georgia, "Times New Roman", serif; font-size: 1.4rem; color: var(--text-light); text-decoration: none; }
   .nav-logo span { color: var(--teal); }
   .nav-links { display: flex; gap: 32px; list-style: none; }
   .nav-links a { text-decoration: none; color: var(--text-muted); font-size: 0.9rem; font-weight: 400; transition: color 0.2s; }
@@ -34,7 +32,7 @@
   .hero::before { content: ''; position: absolute; top: -20%; right: -10%; width: 60vw; height: 60vw; background: radial-gradient(circle, rgba(0,198,167,0.08) 0%, transparent 70%); pointer-events: none; }
   .hero-content { max-width: 640px; position: relative; z-index: 1; }
   .hero-eyebrow { font-size: 0.8rem; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal); margin-bottom: 20px; }
-  h1 { font-family: 'DM Serif Display', serif; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.08; letter-spacing: -0.02em; color: var(--alice); margin-bottom: 28px; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.8rem, 6vw, 5rem); line-height: 1.08; letter-spacing: -0.02em; color: var(--alice); margin-bottom: 28px; }
   h1 em { color: var(--teal); font-style: italic; }
   .hero-sub { font-size: 1.15rem; color: var(--text-muted); max-width: 480px; margin-bottom: 48px; }
   .btn-primary { display: inline-flex; align-items: center; gap: 10px; background: var(--teal); color: var(--navy); padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: all 0.25s; }
@@ -44,12 +42,12 @@
   .dev-notice strong { color: var(--teal); font-weight: 500; }
   .section { padding: 100px 48px; }
   .section-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); margin-bottom: 16px; }
-  h2 { font-family: 'DM Serif Display', serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 64px; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 64px; }
   .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
   .feature-card { background: var(--navy-light); border-radius: 20px; padding: 36px 32px; border: 1px solid var(--navy-light); transition: transform 0.25s, box-shadow 0.25s; }
   .feature-card:hover { transform: translateY(-4px); box-shadow: 0 20px 48px rgba(0,198,167,0.08); }
   .feature-icon { width: 48px; height: 48px; background: var(--navy); border-radius: 14px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 1.5rem; }
-  .feature-card h3 { font-family: 'DM Serif Display', serif; font-size: 1.25rem; margin-bottom: 10px; color: var(--alice); }
+  .feature-card h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; margin-bottom: 10px; color: var(--alice); }
   .feature-card p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.65; }
   .feature-note { font-size: 0.8rem; color: var(--text-muted); opacity: 0.75; margin-top: 12px; }
   .divider { height: 1px; background: var(--navy-light); margin: 0 48px; }
