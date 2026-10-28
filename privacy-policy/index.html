@@ -50,7 +50,7 @@
       <li>user-created stations, including name, stream and image addresses, optional website, tags, and optional region or coordinates;</li>
       <li>the curated station catalog, stream addresses, metadata, and update markers;</li>
       <li>the last saved parking place with coordinates, time, accuracy, and an “automatic” or “manual” source marker;</li>
-      <li>the local “ad-free today” timestamp and local counters retained for the currently disabled audio pre-roll logic; and</li>
+      <li>the local “ad-free today” timestamp (older installs may still hold two inert counters from a removed audio feature, which the app no longer reads or writes); and</li>
       <li>privacy and consent information managed locally by Google UMP.</li>
     </ul>
     <p>These data enable requested app functions and are processed under Article 6(1)(b) GDPR. They are not uploaded as a user profile to a WaveLoka server.</p>
@@ -73,7 +73,7 @@
       <li>a banner in the phone/tablet app; and</li>
       <li>a voluntarily opened rewarded ad which, after completion, marks the app locally as ad-free for the rest of the day.</li>
     </ul>
-    <p>These ads are not displayed on the Android Auto screen. Release audio pre-roll is disabled. Advertising inserted by a broadcaster into its own stream is unaffected.</p>
+    <p>These ads are not displayed on the Android Auto screen. WaveLoka does not insert audio advertising before or into radio streams. Advertising that a broadcaster inserts into its own stream is outside WaveLoka’s control and unaffected.</p>
     <p>At app launch, UMP requests current consent information and displays a privacy message where required. Until UMP reports <code>canRequestAds()</code>, WaveLoka does not initialize Google Mobile Ads and does not request banner or rewarded ads. If requests are not permitted, or if the update fails without a still-valid stored status, the core service remains usable without WaveLoka ads.</p>
     <p>Depending on region, choices, and ad delivery, Google and the advertising technology providers identified in the UMP form may process in particular:</p>
     <ul>

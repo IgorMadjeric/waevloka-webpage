@@ -50,7 +50,7 @@
       <li>selbst angelegte Sender einschließlich Name, Stream- und Bildadressen, optionaler Webseite, Tags sowie optionaler Region oder Koordinaten;</li>
       <li>den kuratierten Senderkatalog, Streamadressen, Metadaten und Aktualisierungskennzeichen;</li>
       <li>den zuletzt gespeicherten Parkplatz mit Koordinaten, Zeitpunkt, Genauigkeit und Kennzeichnung „automatisch“ oder „manuell“;</li>
-      <li>den lokalen Tagesstatus der Funktion „heute werbefrei“ sowie für die derzeit deaktivierte Audio-Pre-Roll-Logik verbliebene lokale Zähler; und</li>
+      <li>den lokalen Tagesstatus der Funktion „heute werbefrei“ (ältere Installationen können noch zwei inaktive Zähler einer entfernten Audio-Funktion enthalten, die die App weder liest noch schreibt); und</li>
       <li>von Google UMP lokal verwaltete Datenschutz- und Einwilligungsinformationen.</li>
     </ul>
     <p>Diese Daten ermöglichen die gewünschten App-Funktionen und werden auf Art. 6 Abs. 1 lit. b DSGVO gestützt. Sie werden nicht als Benutzerprofil an einen WaveLoka-Server übertragen.</p>
@@ -73,7 +73,7 @@
       <li>ein Banner in der Telefon-/Tablet-App; und</li>
       <li>eine freiwillig aufgerufene Rewarded-Anzeige, nach deren vollständiger Wiedergabe die App lokal für den restlichen Tag als werbefrei markiert wird.</li>
     </ul>
-    <p>Diese Anzeigen erscheinen nicht auf dem Android-Auto-Bildschirm. Release-Audio-Pre-Roll ist deaktiviert. Werbung, die ein Radiosender in seinen eigenen Stream einfügt, bleibt davon unberührt.</p>
+    <p>Diese Anzeigen erscheinen nicht auf dem Android-Auto-Bildschirm. WaveLoka fügt keine Audio-Werbung vor oder in Radio-Streams ein. Werbung, die ein Radiosender in seinen eigenen Stream einfügt, liegt außerhalb des Einflusses von WaveLoka und bleibt unberührt.</p>
     <p>Beim App-Start fragt UMP aktuelle Einwilligungsinformationen ab und zeigt, soweit erforderlich, eine Datenschutzabfrage. Vor <code>canRequestAds()</code> von UMP initialisiert WaveLoka Google Mobile Ads nicht und fordert weder Banner- noch Rewarded-Anzeigen an. Ist keine Anfrage zulässig oder schlägt die Abfrage ohne weiterhin gültigen gespeicherten Status fehl, bleibt die Kernfunktion ohne WaveLoka-Anzeigen nutzbar.</p>
     <p>Je nach Region, Auswahl und Anzeigenbereitstellung können Google und die in der UMP-Maske ausgewiesenen Werbetechnologieanbieter insbesondere folgende Daten verarbeiten:</p>
     <ul>
